@@ -1,5 +1,5 @@
 package Lab1;
-import org.w3c.dom.*;
+//import org.w3c.dom.*;
 
 import java.util.LinkedList;
 
