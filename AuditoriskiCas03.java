@@ -18,21 +18,21 @@ public class AuditoriskiCas03 {
             this.next = null;
         }
     }
-    public static void change(LinkedList<Integer> list){
-        Node<Integer> s1, s2, pom1, pom2;
-        s1 = list.getFirst(); // napravi go so SlinkedList ne rabote so linked list
-        s2 = s1.next;
-        pom1 = s1; pom2 = s2;
-        while(pom1 != null && pom2 != null && pom2.next != null && pom2.next.next != null){
-            pom1.next = pom2.next;
-            pom2.next = pom2.next.next;
-
-            pom1 = pom1.next;
-            pom2 = pom2.next;
-        }
-        pom1.next = s2;
-        pom2.next = null;
-    }
+//    public static void change(LinkedList<Integer> list){
+//        Node<Integer> s1, s2, pom1, pom2;
+//        s1 = new Node<Integer>();//list.getFirst(); // napravi go so SlinkedList ne rabote so linked list
+//        s2 = s1.next;
+//        pom1 = s1; pom2 = s2;
+//        while(pom1 != null && pom2 != null && pom2.next != null && pom2.next.next != null){
+//            pom1.next = pom2.next;
+//            pom2.next = pom2.next.next;
+//
+//            pom1 = pom1.next;
+//            pom2 = pom2.next;
+//        }
+//        pom1.next = s2;
+//        pom2.next = null;
+//    }
 }
 
 
